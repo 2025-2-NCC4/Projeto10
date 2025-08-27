@@ -16,7 +16,7 @@ Vide tutoriais do PI.
 
 ## Integrantes: <a>Felipe Vallim Soares</a>, <a>João Victor Rezende</a>, <a>Pedro Della Rosa Antônio</a>, <a>Arthur Paltrinieri</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a>Eduardo Savino</a>, <a>Lucy Mari</a>, <a>Rodnil Silva</a>, <a>David Lemos</a>, <a>Maurício Lopes</a>
 
 ## Descrição
 
