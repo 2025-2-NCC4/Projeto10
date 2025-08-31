@@ -1,0 +1,16 @@
+/* /src/App.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f7f6;
+}
+
+.app-layout {
+  display: flex; /* A mágica acontece aqui! Coloca os filhos lado a lado */
+}
+
+.main-content {
+  flex-grow: 1; /* Faz esta área ocupar todo o espaço restante */
+  display: flex;
+  flex-direction: column;
+}

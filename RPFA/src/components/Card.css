@@ -1,0 +1,16 @@
+/* /src/components/Card.css */
+.dashboard-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px; /* Espaçamento entre os cards */
+  flex: 1; /* Permite que os cards cresçam */
+  min-width: 280px; /* Largura mínima para cada card */
+}
+
+.card-title {
+  margin-top: 0;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+}
