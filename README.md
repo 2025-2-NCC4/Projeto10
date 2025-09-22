@@ -48,10 +48,6 @@ May the force be with you!
   &emsp;&emsp;|-->Contabilidade e Finanças<br>
   &emsp;&emsp;|-->Engenharia de Softwere<br>
   &emsp;&emsp;|-->Projeto<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
