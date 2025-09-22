@@ -1,6 +1,0 @@
-/* /src/components/DashboardContainer.css */
-.dashboard-container {
-  display: flex;
-  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
-  padding: 10px;
-}
