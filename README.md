@@ -7,7 +7,7 @@
 
 # PicMoney - DashBoard Interativo 
 
-## GRUPO 10
+## GRUPO 10 - Evew
 
 ## Integrantes: <a>Felipe Vallim Soares</a>, <a>João Victor Rezende</a>, <a>Pedro Della Rosa Antônio</a>, <a>Arthur Paltrinieri</a>
 
