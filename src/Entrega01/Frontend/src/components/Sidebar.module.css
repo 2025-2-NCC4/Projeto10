@@ -1,0 +1,55 @@
+/* Em src/components/Sidebar.module.css */
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--color-sidebar-bg);
+  color: var(--color-text-sidebar);
+  padding: 1rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* *** NOVO ESTILO PARA O LOGO NA SIDEBAR *** */
+.sidebarLogo {
+  max-width: 200px; /* Tamanho pequeno */
+  height: auto;
+  display: block; /* Para centralizar */
+  margin: 0 auto 0px auto; /* Centraliza e adiciona espaço embaixo */
+  border-radius: 4px; /* Borda suave */
+  /* Remove qualquer estilo de texto padrão que possa ter */
+  color: transparent; 
+}
+
+/* O antigo .sidebar h2 foi removido, pois não temos mais o <h2> */
+/* .sidebar h2 { ... } */
+
+.clientName {
+  color: var(--color-text-sidebar);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--color-border-sidebar);
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  color: var(--color-text-sidebar);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.link:hover,
+.linkActive {
+  background-color: var(--color-sidebar-link-hover);
+  color: #fff;
+}

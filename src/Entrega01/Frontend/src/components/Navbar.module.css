@@ -1,0 +1,24 @@
+/* Em src/components/Navbar.module.css */
+.navbar {
+  /* O fundo agora é controlado pelo Layout.module.css
+     ou pela variável aqui */
+  background: var(--color-navbar-bg);
+  padding: 1rem;
+  color: var(--color-text-navbar); /* Texto muda com o tema */
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--color-text-navbar); /* Título muda com o tema */
+  transition: color 0.2s ease;
+}
+
+.navControls {
+  margin-left: auto; /* Empurra o botão para a extrema direita */
+  display: flex;
+  align-items: center;
+}

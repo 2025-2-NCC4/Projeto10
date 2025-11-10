@@ -1,0 +1,21 @@
+/* Em src/components/CouponTypeChart.module.css */
+.chartContainer {
+  background-color: var(--color-background-card);
+  border-radius: 8px;
+  border: 1px solid var(--color-border-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.chartContainer h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  transition: color 0.2s ease;
+}
+
+.chartContainer p {
+  color: var(--color-text-secondary);
+}

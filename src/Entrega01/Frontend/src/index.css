@@ -1,0 +1,69 @@
+/* Em src/index.css */
+
+/* 1. VARIÁVEIS DO TEMA CLARO (LIGHT MODE) */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* --- NOSSAS VARIÁVEIS DE COR (LIGHT) --- */
+  
+  /* Fundos */
+  --color-background: #f4f7fa;        /* Fundo principal (cinza bem claro) */
+  --color-background-card: #ffffff;   /* Fundo dos cards, tabelas, gráficos */
+  --color-sidebar-bg: #1e1e2d;        /* Fundo da Sidebar (sempre escura) */
+  --color-navbar-bg: #ffffff;         /* Fundo da Navbar (topo) */
+  
+  /* Textos */
+  --color-text-primary: #1a1a1a;      /* Texto principal (quase preto) */
+  --color-text-secondary: #555;     /* Texto secundário (cinza escuro) */
+  --color-text-sidebar: #a9a9b8;      /* Texto da Sidebar (cinza claro) */
+  --color-text-navbar: #1a1a1a;        /* Texto da Navbar (topo) */
+
+  /* Bordas e Linhas */
+  --color-border-light: #eee;         /* Linhas de tabela */
+  --color-border-sidebar: #444;     /* Linhas da Sidebar */
+
+  /* Cores de Destaque */
+  --color-sidebar-link-hover: #5d5d6d;
+}
+
+/* 2. VARIÁVEIS DO TEMA ESCURO (DARK MODE) */
+/* Quando o body tiver a classe .dark, estas variáveis
+   substituem as de cima */
+body.dark {
+  /* Fundos */
+  --color-background: #121212;        /* Fundo principal (preto/cinza) */
+  --color-background-card: #1e1e1e;   /* Fundo dos cards (cinza escuro) */
+  --color-navbar-bg: #1e1e1e;         /* Fundo da Navbar (topo) */
+  
+  /* Textos */
+  --color-text-primary: #f0f0f0;      /* Texto principal (quase branco) */
+  --color-text-secondary: #a9a9b8;    /* Texto secundário (cinza claro) */
+  --color-text-navbar: #f0f0f0;        /* Texto da Navbar (topo) */
+
+  /* Bordas e Linhas */
+  --color-border-light: #333;         /* Linhas de tabela (mais escuras) */
+}
+
+/* --- ESTILOS GLOBAIS --- */
+body {
+  margin: 0;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* Garante que todos os títulos mudem de cor */
+  color: var(--color-text-primary);
+}
+
+#root {
+  min-height: 100vh;
+}

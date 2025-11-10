@@ -1,0 +1,29 @@
+/* Em src/pages/Dashboard.module.css */
+
+.dashboardContent h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* 1. Renomeie 'cardGrid' para 'kpiGrid' (para os 4 cards) */
+.kpiGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem; /* Espaçamento entre os cards */
+}
+
+/* 2. Crie este novo grid para os gráficos */
+.chartGrid {
+  display: grid;
+  /* Cria 2 colunas */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* 3. (Opcional) Adiciona regra para telas pequenas */
+@media (max-width: 900px) {
+  .chartGrid {
+    grid-template-columns: 1fr; /* Um gráfico abaixo do outro */
+  }
+}

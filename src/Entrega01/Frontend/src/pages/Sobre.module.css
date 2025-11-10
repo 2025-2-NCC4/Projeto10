@@ -1,0 +1,47 @@
+/* Em src/pages/Sobre.module.css */
+
+.sobreContainer {
+  background-color: var(--color-background-card);
+  border-radius: 8px;
+  border: 1px solid var(--color-border-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem 2.5rem;
+  margin-top: 1.5rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.logo {
+  /* *** A MUDANÇA ESTÁ AQUI *** */
+  max-width: 300px; /* Era 250px */
+  height: auto;
+  display: block; 
+  margin: 1rem auto 2rem auto; 
+  border-radius: 8px; 
+}
+
+.sobreContainer h1 {
+  color: var(--color-text-primary);
+  text-align: center; 
+  margin-bottom: 0.5rem;
+}
+
+.sobreContainer h3 {
+  color: var(--color-text-primary);
+  border-bottom: 1px solid var(--color-border-light);
+  padding-bottom: 5px;
+  margin-top: 2rem;
+}
+
+.sobreContainer p,
+.sobreContainer li {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--color-text-secondary);
+}

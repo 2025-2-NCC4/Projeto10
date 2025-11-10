@@ -1,0 +1,32 @@
+/* Em src/components/Layout.module.css */
+.layoutContainer {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "sidebar navbar"
+    "sidebar main";
+  height: 100vh;
+  background-color: var(--color-background);
+  transition: background-color 0.2s ease;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: var(--color-navbar-bg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  /* O componente Sidebar tem seu próprio estilo de fundo */
+}
+
+.mainContent {
+  grid-area: main;
+  padding: 2rem;
+  overflow-y: auto;
+  /* O fundo do mainContent é o fundo geral do body */
+  background-color: var(--color-background);
+}

@@ -1,0 +1,45 @@
+/* Em src/components/DataTable.module.css */
+.tableContainer {
+  background-color: var(--color-background-card);
+  border-radius: 8px;
+  border: 1px solid var(--color-border-light);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.tableContainer h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+  transition: color 0.2s ease;
+}
+
+.tableContainer p {
+  color: var(--color-text-secondary);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border-light);
+  color: var(--color-text-secondary);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}

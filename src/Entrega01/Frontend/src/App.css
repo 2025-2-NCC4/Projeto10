@@ -1,0 +1,16 @@
+/* Em src/App.css */
+
+/* DELETE todo o conteúdo antigo.
+  As regras .logo, .card, etc., são do template padrão do Vite
+  e não estão sendo usadas em nosso projeto de dashboard.
+
+  A regra #root original (com max-width e margin: auto)
+  estava QUEBRANDO nosso layout de grid, forçando-o
+  a ficar em uma caixa centralizada.
+*/
+
+/* A única regra que queremos aqui é garantir que o app
+   possa preencher a altura total da tela. */
+#root {
+  min-height: 100vh;
+}

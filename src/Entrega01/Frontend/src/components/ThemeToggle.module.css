@@ -1,0 +1,35 @@
+/* Em src/components/ThemeToggle.module.css */
+.toggleButton {
+    /* Fundo sutil que se adapta */
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border-light);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .toggleButton:hover {
+    background-color: var(--color-border-light);
+  }
+  
+  /* Estilo geral para os ícones */
+  .icon {
+    font-size: 1.2rem;
+    line-height: 1;
+    display: block;
+    transition: color 0.2s ease;
+  }
+  
+  /* Cor específica para o ícone de Sol */
+  .sun {
+    color: #f39c12; /* Laranja/Amarelo */
+  }
+  
+  /* Cor específica para o ícone de Lua */
+  .moon {
+    color: #3498db; /* Azul claro */
+  }
