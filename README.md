@@ -15,6 +15,10 @@
 
 ## Descrição
 
+<p align="center">
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/ebcfe6b7-a726-48dd-b336-c24e900ce05c" />
+</p>
+
 Dashboard Interativo para a empresa PicMoney voltado para o público C-Level (CEOs,CFOs,CTOs) que integre e apresenta, de forma responsiva,
 indicadores estratégicos, financeiros e operacionais da PicMoney, voltado ao suporte da tomada de decisão executiva.
 
