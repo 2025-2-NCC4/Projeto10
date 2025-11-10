@@ -94,7 +94,7 @@ Coloque código do prompt de comnando se for necessário
 ```
 
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+<a href="https://example.com">Evew</a> © by <a href="https://example.com">Pedro Della Rosa Antônio, Felipe Vallim Soares, João Victor Rezende, Arthur Paltrinieri</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> >
 
 ## 🎓 Referências
 
