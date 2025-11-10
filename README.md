@@ -100,8 +100,8 @@ Coloque código do prompt de comnando se for necessário
 
 Aqui estão as referências usadas no projeto.
 
-1. Base de Dados da PiCMoney
-2. Documentação React
-3. Documentação Flask
-4. Documentação Streamlit
+* Base de Dados da PiCMoney
+* Documentação React
+* Documentação Flask
+* Documentação Streamlit
 
