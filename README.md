@@ -79,19 +79,6 @@ Coloque código do prompt de comnando se for necessário
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 📋 Licença/License
 <a href="https://example.com">Evew</a> © by <a href="https://example.com">Pedro Della Rosa Antônio, Felipe Vallim Soares, João Victor Rezende, Arthur Paltrinieri</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> 
